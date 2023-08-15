@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtcd7o587auoi"]
+
+[ext_resource type="TileSet" uid="uid://c5ys7yqawpwtv" path="res://tilesets/basic_tiles.tres" id="1_vj5bd"]
+
+[node name="Game" type="Node2D"]
+
+[node name="GameTiles" type="Node2D" parent="."]
+texture_filter = 1
+
+[node name="Tiles" type="TileMap" parent="GameTiles"]
+tile_set = ExtResource("1_vj5bd")
+format = 2
+layer_0/tile_data = PackedInt32Array(524290, 655361, 0, 524291, 655361, 0, 524292, 655361, 0, 524293, 655361, 0, 524294, 655361, 0, 524295, 655361, 0, 524296, 655361, 0, 589829, 589825, 2, 589826, 589825, 2, 589827, 589824, 2, 589828, 589824, 2, 589830, 589824, 2, 589831, 589824, 2, 589832, 589825, 2, 589825, 524289, 1, 655362, 589825, 3, 655363, 589825, 3, 655364, 589825, 3, 655365, 589825, 3, 655366, 589825, 3, 655367, 589825, 3, 655368, 589825, 3, 589833, 720897, 2, 524289, 524289, 0, 655361, 524289, 3, 524297, 720897, 0, 655369, 720897, 3)
